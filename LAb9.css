@@ -1,0 +1,109 @@
+body{
+    margin:0;
+
+}
+.mainDiv{
+    border: 5px solid rgb(109, 172, 213);
+    padding: 20px;
+    margin: 15px;
+    width: 400px;
+    height: 400px;
+}
+.inputDiv{
+    border: 1px solid black;
+    width: calc(100% - 2px - 20px);
+    height: calc(((100% - 40px - 5px) / 5) - 30px);
+    margin-bottom: 10px;
+    font-size: xx-large;
+    text-align: right;
+    padding: 15px 10px;
+}
+.blackDiv{
+    color: black;
+}
+.greyDiv{
+    color: grey;
+}
+button{
+    padding:0;
+    font-size:xx-large;
+}
+.butDiv{
+    display:grid;
+    width: 100%;
+    gap: 10px;
+    grid-template-rows: [start] 72px [row2] 72px [row3] 72px [end] 72px;
+    grid-template-columns: [start] 72px [col2] 72px [col3] 72px [col4] 72px [end] 72px;
+}
+.but7{
+    grid-row-start: start;
+    grid-column-start: start;
+}
+.but8{
+    grid-row-start: start;
+    grid-column-start: col2;
+}
+.but9{
+    grid-row-start: start;
+    grid-column-start: col3;
+}
+.butDivision{
+    grid-row-start: start;
+    grid-column-start: col4;
+}
+.butClear{
+    grid-row-start: start;
+    grid-column-start: end;
+}
+.but4{
+    grid-row-start: row2;
+    grid-column-start: start;
+}
+.but5{
+    grid-row-start: row2;
+    grid-column-start: col2;
+}
+.but6{
+    grid-row-start: row2;
+    grid-column-start: col3;
+}
+.butMulti{
+    grid-row-start: row2;
+    grid-column-start: col4;
+}
+.butDelete{
+    grid-row-start: row2;
+    grid-column-start: end;
+}
+.but1{
+    grid-row-start: row3;
+    grid-column-start: start;
+}
+.but2{
+    grid-row-start: row3;
+    grid-column-start: col2;
+}
+.but3{
+    grid-row-start: row3;
+    grid-column-start: col3;
+}
+.butMinus{
+    grid-row-start: row3;
+    grid-column-start: col4;
+}
+.butEqual{
+    grid-row-start: span 2;
+    grid-column-start: end;
+}
+.but0{
+    grid-row-start: end;
+    grid-column-start: span 2;
+}
+.butPoint{
+    grid-row-start: end;
+    grid-column-start: col3;
+}
+.butPlus{
+    grid-row-start: end;
+    grid-column-start: col4;
+}
